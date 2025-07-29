@@ -1,0 +1,14 @@
+Athorization = Simplify::Authorization.create({
+        "reference" => "KPAT Obst J",
+        "amount" => "250098769101",
+        "description" => "authorization",
+        "currency" => "AUD",
+        "card" => {
+           "number" => "5217293017180687",
+           "expMonth" => "05",
+           "cvc" => "805",
+           "expYear" => "28"
+        }
+})
+ 
+puts authorization.inspect
